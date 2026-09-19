@@ -12,6 +12,7 @@ git clone https://github.com/pubmedqa/pubmedqa data/pubmedqa
 ```
 
 The notebooks expect three preprocessed JSON files at the repo root:
+
 preprocessed/
 ├── processed_train_set.json (800 examples)
 ├── processed_dev_set.json (100 examples)
@@ -36,7 +37,8 @@ Place them under `data/umls/`.
 ## 3. Generate UMLS-augmented datasets
 
 The training notebook loads augmented datasets from:
-inal_biobert/
+
+final_biobert/
 ├── train_dataset_mrsty.json
 ├── dev_dataset_mrsty.json
 ├── test_dataset_mrsty.json
