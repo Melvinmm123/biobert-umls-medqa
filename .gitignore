@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Project-specific ──────────────────────────────────
+
+# Trained models — each is 400+ MB, never commit
+model_*/
+tokenizer_*/
+results_*/
+logs_*/
+
+# Data (licensed or external — see data/README.md)
+data/umls/
+data/pubmedqa/
+preprocessed/
+final_biobert/
+
+# macOS
+.DS_Store
+.Rhistory
